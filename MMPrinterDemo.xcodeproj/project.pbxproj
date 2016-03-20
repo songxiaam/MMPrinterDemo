@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279DD8971C9DA71B00CEA250 /* IGThermalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 279DD8961C9DA71B00CEA250 /* IGThermalSupport.m */; };
+		279DD89A1C9DA97900CEA250 /* MMQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 279DD8991C9DA97900CEA250 /* MMQRCode.m */; };
+		279DD89E1C9DC05F00CEA250 /* kfc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 279DD89D1C9DC05F00CEA250 /* kfc.gif */; };
+		C8066CCC1C9A4A1600DE1D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CCB1C9A4A1600DE1D90 /* main.m */; };
+		C8066CCF1C9A4A1600DE1D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CCE1C9A4A1600DE1D90 /* AppDelegate.m */; };
+		C8066CD21C9A4A1600DE1D90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CD11C9A4A1600DE1D90 /* ViewController.m */; };
+		C8066CD51C9A4A1600DE1D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8066CD31C9A4A1600DE1D90 /* Main.storyboard */; };
+		C8066CD71C9A4A1600DE1D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8066CD61C9A4A1600DE1D90 /* Assets.xcassets */; };
+		C8066CDA1C9A4A1600DE1D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8066CD81C9A4A1600DE1D90 /* LaunchScreen.storyboard */; };
+		C8066CE51C9A4A1600DE1D90 /* MMPrinterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CE41C9A4A1600DE1D90 /* MMPrinterDemoTests.m */; };
+		C8066CF01C9A4A1600DE1D90 /* MMPrinterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CEF1C9A4A1600DE1D90 /* MMPrinterDemoUITests.m */; };
+		C8066D001C9A4B4300DE1D90 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CFF1C9A4B4300DE1D90 /* AsyncSocket.m */; };
+		C8066D061C9A4BBF00DE1D90 /* MMPrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066D051C9A4BBF00DE1D90 /* MMPrinterManager.m */; };
+		C8066D091C9A86D600DE1D90 /* MMSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066D081C9A86D600DE1D90 /* MMSocketManager.m */; };
+		C8AD0B7F1C9BA33100FFFAB6 /* MMReceiptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD0B7E1C9BA33100FFFAB6 /* MMReceiptManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8066CE11C9A4A1600DE1D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8066CBF1C9A4A1600DE1D90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8066CC61C9A4A1600DE1D90;
+			remoteInfo = MMPrinterDemo;
+		};
+		C8066CEC1C9A4A1600DE1D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8066CBF1C9A4A1600DE1D90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8066CC61C9A4A1600DE1D90;
+			remoteInfo = MMPrinterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279DD8951C9DA71B00CEA250 /* IGThermalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGThermalSupport.h; sourceTree = "<group>"; };
+		279DD8961C9DA71B00CEA250 /* IGThermalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGThermalSupport.m; sourceTree = "<group>"; };
+		279DD8981C9DA97900CEA250 /* MMQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMQRCode.h; sourceTree = "<group>"; };
+		279DD8991C9DA97900CEA250 /* MMQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMQRCode.m; sourceTree = "<group>"; };
+		279DD89D1C9DC05F00CEA250 /* kfc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kfc.gif; sourceTree = "<group>"; };
+		C8066CC71C9A4A1600DE1D90 /* MMPrinterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMPrinterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8066CCB1C9A4A1600DE1D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8066CCD1C9A4A1600DE1D90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8066CCE1C9A4A1600DE1D90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8066CD01C9A4A1600DE1D90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8066CD11C9A4A1600DE1D90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8066CD41C9A4A1600DE1D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8066CD61C9A4A1600DE1D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8066CD91C9A4A1600DE1D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8066CDB1C9A4A1600DE1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8066CE01C9A4A1600DE1D90 /* MMPrinterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMPrinterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8066CE41C9A4A1600DE1D90 /* MMPrinterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPrinterDemoTests.m; sourceTree = "<group>"; };
+		C8066CE61C9A4A1600DE1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8066CEB1C9A4A1600DE1D90 /* MMPrinterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMPrinterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8066CEF1C9A4A1600DE1D90 /* MMPrinterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPrinterDemoUITests.m; sourceTree = "<group>"; };
+		C8066CF11C9A4A1600DE1D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8066CFE1C9A4B4300DE1D90 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		C8066CFF1C9A4B4300DE1D90 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		C8066D041C9A4BBF00DE1D90 /* MMPrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPrinterManager.h; sourceTree = "<group>"; };
+		C8066D051C9A4BBF00DE1D90 /* MMPrinterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPrinterManager.m; sourceTree = "<group>"; };
+		C8066D071C9A86D600DE1D90 /* MMSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSocketManager.h; sourceTree = "<group>"; };
+		C8066D081C9A86D600DE1D90 /* MMSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSocketManager.m; sourceTree = "<group>"; };
+		C8AD0B7D1C9BA33100FFFAB6 /* MMReceiptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMReceiptManager.h; sourceTree = "<group>"; };
+		C8AD0B7E1C9BA33100FFFAB6 /* MMReceiptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMReceiptManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8066CC41C9A4A1600DE1D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8066CDD1C9A4A1600DE1D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8066CE81C9A4A1600DE1D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8066CBE1C9A4A1600DE1D90 = {
+			isa = PBXGroup;
+			children = (
+				C8066CC91C9A4A1600DE1D90 /* MMPrinterDemo */,
+				C8066CE31C9A4A1600DE1D90 /* MMPrinterDemoTests */,
+				C8066CEE1C9A4A1600DE1D90 /* MMPrinterDemoUITests */,
+				C8066CC81C9A4A1600DE1D90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8066CC81C9A4A1600DE1D90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8066CC71C9A4A1600DE1D90 /* MMPrinterDemo.app */,
+				C8066CE01C9A4A1600DE1D90 /* MMPrinterDemoTests.xctest */,
+				C8066CEB1C9A4A1600DE1D90 /* MMPrinterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8066CC91C9A4A1600DE1D90 /* MMPrinterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C8066CCD1C9A4A1600DE1D90 /* AppDelegate.h */,
+				C8066CCE1C9A4A1600DE1D90 /* AppDelegate.m */,
+				C8066CD01C9A4A1600DE1D90 /* ViewController.h */,
+				C8066CD11C9A4A1600DE1D90 /* ViewController.m */,
+				279DD89D1C9DC05F00CEA250 /* kfc.gif */,
+				C8066CFD1C9A4A5400DE1D90 /* PrinterManager */,
+				C8066CD31C9A4A1600DE1D90 /* Main.storyboard */,
+				C8066CD61C9A4A1600DE1D90 /* Assets.xcassets */,
+				C8066CD81C9A4A1600DE1D90 /* LaunchScreen.storyboard */,
+				C8066CDB1C9A4A1600DE1D90 /* Info.plist */,
+				C8066CCA1C9A4A1600DE1D90 /* Supporting Files */,
+			);
+			path = MMPrinterDemo;
+			sourceTree = "<group>";
+		};
+		C8066CCA1C9A4A1600DE1D90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8066CCB1C9A4A1600DE1D90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8066CE31C9A4A1600DE1D90 /* MMPrinterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8066CE41C9A4A1600DE1D90 /* MMPrinterDemoTests.m */,
+				C8066CE61C9A4A1600DE1D90 /* Info.plist */,
+			);
+			path = MMPrinterDemoTests;
+			sourceTree = "<group>";
+		};
+		C8066CEE1C9A4A1600DE1D90 /* MMPrinterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8066CEF1C9A4A1600DE1D90 /* MMPrinterDemoUITests.m */,
+				C8066CF11C9A4A1600DE1D90 /* Info.plist */,
+			);
+			path = MMPrinterDemoUITests;
+			sourceTree = "<group>";
+		};
+		C8066CFD1C9A4A5400DE1D90 /* PrinterManager */ = {
+			isa = PBXGroup;
+			children = (
+				C8066CFE1C9A4B4300DE1D90 /* AsyncSocket.h */,
+				C8066CFF1C9A4B4300DE1D90 /* AsyncSocket.m */,
+				279DD8951C9DA71B00CEA250 /* IGThermalSupport.h */,
+				279DD8961C9DA71B00CEA250 /* IGThermalSupport.m */,
+				279DD8981C9DA97900CEA250 /* MMQRCode.h */,
+				279DD8991C9DA97900CEA250 /* MMQRCode.m */,
+				C8066D041C9A4BBF00DE1D90 /* MMPrinterManager.h */,
+				C8066D051C9A4BBF00DE1D90 /* MMPrinterManager.m */,
+				C8066D071C9A86D600DE1D90 /* MMSocketManager.h */,
+				C8066D081C9A86D600DE1D90 /* MMSocketManager.m */,
+				C8AD0B7D1C9BA33100FFFAB6 /* MMReceiptManager.h */,
+				C8AD0B7E1C9BA33100FFFAB6 /* MMReceiptManager.m */,
+			);
+			path = PrinterManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8066CC61C9A4A1600DE1D90 /* MMPrinterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8066CF41C9A4A1600DE1D90 /* Build configuration list for PBXNativeTarget "MMPrinterDemo" */;
+			buildPhases = (
+				C8066CC31C9A4A1600DE1D90 /* Sources */,
+				C8066CC41C9A4A1600DE1D90 /* Frameworks */,
+				C8066CC51C9A4A1600DE1D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMPrinterDemo;
+			productName = MMPrinterDemo;
+			productReference = C8066CC71C9A4A1600DE1D90 /* MMPrinterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8066CDF1C9A4A1600DE1D90 /* MMPrinterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8066CF71C9A4A1600DE1D90 /* Build configuration list for PBXNativeTarget "MMPrinterDemoTests" */;
+			buildPhases = (
+				C8066CDC1C9A4A1600DE1D90 /* Sources */,
+				C8066CDD1C9A4A1600DE1D90 /* Frameworks */,
+				C8066CDE1C9A4A1600DE1D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8066CE21C9A4A1600DE1D90 /* PBXTargetDependency */,
+			);
+			name = MMPrinterDemoTests;
+			productName = MMPrinterDemoTests;
+			productReference = C8066CE01C9A4A1600DE1D90 /* MMPrinterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8066CEA1C9A4A1600DE1D90 /* MMPrinterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8066CFA1C9A4A1600DE1D90 /* Build configuration list for PBXNativeTarget "MMPrinterDemoUITests" */;
+			buildPhases = (
+				C8066CE71C9A4A1600DE1D90 /* Sources */,
+				C8066CE81C9A4A1600DE1D90 /* Frameworks */,
+				C8066CE91C9A4A1600DE1D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8066CED1C9A4A1600DE1D90 /* PBXTargetDependency */,
+			);
+			name = MMPrinterDemoUITests;
+			productName = MMPrinterDemoUITests;
+			productReference = C8066CEB1C9A4A1600DE1D90 /* MMPrinterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8066CBF1C9A4A1600DE1D90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mikezhao;
+				TargetAttributes = {
+					C8066CC61C9A4A1600DE1D90 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C8066CDF1C9A4A1600DE1D90 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C8066CC61C9A4A1600DE1D90;
+					};
+					C8066CEA1C9A4A1600DE1D90 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C8066CC61C9A4A1600DE1D90;
+					};
+				};
+			};
+			buildConfigurationList = C8066CC21C9A4A1600DE1D90 /* Build configuration list for PBXProject "MMPrinterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8066CBE1C9A4A1600DE1D90;
+			productRefGroup = C8066CC81C9A4A1600DE1D90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8066CC61C9A4A1600DE1D90 /* MMPrinterDemo */,
+				C8066CDF1C9A4A1600DE1D90 /* MMPrinterDemoTests */,
+				C8066CEA1C9A4A1600DE1D90 /* MMPrinterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8066CC51C9A4A1600DE1D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8066CDA1C9A4A1600DE1D90 /* LaunchScreen.storyboard in Resources */,
+				C8066CD71C9A4A1600DE1D90 /* Assets.xcassets in Resources */,
+				C8066CD51C9A4A1600DE1D90 /* Main.storyboard in Resources */,
+				279DD89E1C9DC05F00CEA250 /* kfc.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8066CDE1C9A4A1600DE1D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8066CE91C9A4A1600DE1D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8066CC31C9A4A1600DE1D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8066CD21C9A4A1600DE1D90 /* ViewController.m in Sources */,
+				279DD89A1C9DA97900CEA250 /* MMQRCode.m in Sources */,
+				C8066CCF1C9A4A1600DE1D90 /* AppDelegate.m in Sources */,
+				C8066D091C9A86D600DE1D90 /* MMSocketManager.m in Sources */,
+				C8066D061C9A4BBF00DE1D90 /* MMPrinterManager.m in Sources */,
+				C8AD0B7F1C9BA33100FFFAB6 /* MMReceiptManager.m in Sources */,
+				C8066CCC1C9A4A1600DE1D90 /* main.m in Sources */,
+				C8066D001C9A4B4300DE1D90 /* AsyncSocket.m in Sources */,
+				279DD8971C9DA71B00CEA250 /* IGThermalSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8066CDC1C9A4A1600DE1D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8066CE51C9A4A1600DE1D90 /* MMPrinterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8066CE71C9A4A1600DE1D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8066CF01C9A4A1600DE1D90 /* MMPrinterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8066CE21C9A4A1600DE1D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8066CC61C9A4A1600DE1D90 /* MMPrinterDemo */;
+			targetProxy = C8066CE11C9A4A1600DE1D90 /* PBXContainerItemProxy */;
+		};
+		C8066CED1C9A4A1600DE1D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8066CC61C9A4A1600DE1D90 /* MMPrinterDemo */;
+			targetProxy = C8066CEC1C9A4A1600DE1D90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8066CD31C9A4A1600DE1D90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8066CD41C9A4A1600DE1D90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8066CD81C9A4A1600DE1D90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8066CD91C9A4A1600DE1D90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8066CF21C9A4A1600DE1D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8066CF31C9A4A1600DE1D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8066CF51C9A4A1600DE1D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MMPrinterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikezhao.MMPrinterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8066CF61C9A4A1600DE1D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MMPrinterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikezhao.MMPrinterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8066CF81C9A4A1600DE1D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMPrinterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikezhao.MMPrinterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMPrinterDemo.app/MMPrinterDemo";
+			};
+			name = Debug;
+		};
+		C8066CF91C9A4A1600DE1D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMPrinterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikezhao.MMPrinterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMPrinterDemo.app/MMPrinterDemo";
+			};
+			name = Release;
+		};
+		C8066CFB1C9A4A1600DE1D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MMPrinterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikezhao.MMPrinterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMPrinterDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C8066CFC1C9A4A1600DE1D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MMPrinterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikezhao.MMPrinterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMPrinterDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8066CC21C9A4A1600DE1D90 /* Build configuration list for PBXProject "MMPrinterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8066CF21C9A4A1600DE1D90 /* Debug */,
+				C8066CF31C9A4A1600DE1D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8066CF41C9A4A1600DE1D90 /* Build configuration list for PBXNativeTarget "MMPrinterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8066CF51C9A4A1600DE1D90 /* Debug */,
+				C8066CF61C9A4A1600DE1D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8066CF71C9A4A1600DE1D90 /* Build configuration list for PBXNativeTarget "MMPrinterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8066CF81C9A4A1600DE1D90 /* Debug */,
+				C8066CF91C9A4A1600DE1D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8066CFA1C9A4A1600DE1D90 /* Build configuration list for PBXNativeTarget "MMPrinterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8066CFB1C9A4A1600DE1D90 /* Debug */,
+				C8066CFC1C9A4A1600DE1D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8066CBF1C9A4A1600DE1D90 /* Project object */;
+}
