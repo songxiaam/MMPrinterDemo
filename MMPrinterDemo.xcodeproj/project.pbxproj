@@ -10,6 +10,8 @@
 		279DD8971C9DA71B00CEA250 /* IGThermalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 279DD8961C9DA71B00CEA250 /* IGThermalSupport.m */; };
 		279DD89A1C9DA97900CEA250 /* MMQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 279DD8991C9DA97900CEA250 /* MMQRCode.m */; };
 		279DD89E1C9DC05F00CEA250 /* kfc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 279DD89D1C9DC05F00CEA250 /* kfc.gif */; };
+		27D42C251CA055CA00629A83 /* GP-80XXX中文编程手册.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 27D42C241CA055CA00629A83 /* GP-80XXX中文编程手册.pdf */; };
+		27EA6E541C9ED4D60089517D /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EA6E531C9ED4D60089517D /* ModifyViewController.m */; };
 		C8066CCC1C9A4A1600DE1D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CCB1C9A4A1600DE1D90 /* main.m */; };
 		C8066CCF1C9A4A1600DE1D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CCE1C9A4A1600DE1D90 /* AppDelegate.m */; };
 		C8066CD21C9A4A1600DE1D90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8066CD11C9A4A1600DE1D90 /* ViewController.m */; };
@@ -47,6 +49,9 @@
 		279DD8981C9DA97900CEA250 /* MMQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMQRCode.h; sourceTree = "<group>"; };
 		279DD8991C9DA97900CEA250 /* MMQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMQRCode.m; sourceTree = "<group>"; };
 		279DD89D1C9DC05F00CEA250 /* kfc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kfc.gif; sourceTree = "<group>"; };
+		27D42C241CA055CA00629A83 /* GP-80XXX中文编程手册.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GP-80XXX中文编程手册.pdf"; sourceTree = "<group>"; };
+		27EA6E521C9ED4D60089517D /* ModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
+		27EA6E531C9ED4D60089517D /* ModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyViewController.m; sourceTree = "<group>"; };
 		C8066CC71C9A4A1600DE1D90 /* MMPrinterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMPrinterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8066CCB1C9A4A1600DE1D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8066CCD1C9A4A1600DE1D90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,10 +126,13 @@
 		C8066CC91C9A4A1600DE1D90 /* MMPrinterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				27D42C241CA055CA00629A83 /* GP-80XXX中文编程手册.pdf */,
 				C8066CCD1C9A4A1600DE1D90 /* AppDelegate.h */,
 				C8066CCE1C9A4A1600DE1D90 /* AppDelegate.m */,
 				C8066CD01C9A4A1600DE1D90 /* ViewController.h */,
 				C8066CD11C9A4A1600DE1D90 /* ViewController.m */,
+				27EA6E521C9ED4D60089517D /* ModifyViewController.h */,
+				27EA6E531C9ED4D60089517D /* ModifyViewController.m */,
 				279DD89D1C9DC05F00CEA250 /* kfc.gif */,
 				C8066CFD1C9A4A5400DE1D90 /* PrinterManager */,
 				C8066CD31C9A4A1600DE1D90 /* Main.storyboard */,
@@ -286,6 +294,7 @@
 			files = (
 				C8066CDA1C9A4A1600DE1D90 /* LaunchScreen.storyboard in Resources */,
 				C8066CD71C9A4A1600DE1D90 /* Assets.xcassets in Resources */,
+				27D42C251CA055CA00629A83 /* GP-80XXX中文编程手册.pdf in Resources */,
 				C8066CD51C9A4A1600DE1D90 /* Main.storyboard in Resources */,
 				279DD89E1C9DC05F00CEA250 /* kfc.gif in Resources */,
 			);
@@ -318,6 +327,7 @@
 				C8066D091C9A86D600DE1D90 /* MMSocketManager.m in Sources */,
 				C8066D061C9A4BBF00DE1D90 /* MMPrinterManager.m in Sources */,
 				C8AD0B7F1C9BA33100FFFAB6 /* MMReceiptManager.m in Sources */,
+				27EA6E541C9ED4D60089517D /* ModifyViewController.m in Sources */,
 				C8066CCC1C9A4A1600DE1D90 /* main.m in Sources */,
 				C8066D001C9A4B4300DE1D90 /* AsyncSocket.m in Sources */,
 				279DD8971C9DA71B00CEA250 /* IGThermalSupport.m in Sources */,
