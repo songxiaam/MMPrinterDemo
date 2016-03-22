@@ -19,11 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSString *host = @"192.168.1.240";
+    NSString *host = @"192.168.1.241";
     UInt16 port = 9100;
     NSTimeInterval timeout = 10;
     MMReceiptManager *manager = [[MMReceiptManager alloc] initWithHost:host port:port timeout:timeout];
-    
+    [manager basicSetting];
     [manager writeData_title:@"肯德基" Scale:scale_2 Type:MiddleAlignment];
     [manager writeData_items:@[@"收银员:001", @"交易时间:2016-03-17", @"交易号:201603170001"]];
     [manager writeData_line];
@@ -34,6 +34,7 @@
     [manager writeData_items:@[@"支付方式:现金", @"应收:28.00", @"实际:30.00", @"找零:2.00"]];
     UIImage *qrImage = [MMQRCode qrCodeWithString:@"" logoName:@"kfc.gif" size:200];
     [manager writeData_image:qrImage alignment:MiddleAlignment maxWidth:200];
+    [manager openCashDrawer];
     [manager printReceipt];
 }
 

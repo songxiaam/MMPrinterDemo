@@ -128,7 +128,8 @@
 }
 //打印小票
 - (void)printReceipt {
-    
+    [self.printerManager printCutPaper:feedPaperHalfCut Num:12];
+    [_asynaSocket socketWriteData:[self.printerManager sendData]];
 }
 
 @end
