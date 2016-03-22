@@ -14,10 +14,10 @@
 @interface MMPrinterManager : NSObject
 
 //对齐方式
-typedef enum  {
-    LeftAlignment = 48,
-    MiddleAlignment = 49,
-    RightAlignment = 50,
+typedef enum :UInt8 {
+    LeftAlignment = 0x30,
+    MiddleAlignment = 0x31,
+    RightAlignment = 0x32,
 }kAlignmentType;
 
 //页模式下打印区域方向
@@ -30,14 +30,22 @@ typedef enum  {
 
 //字符放大倍数
 typedef enum :UInt8{
-    scale_1 = 0,
-    scale_2 = 17,
-    scale_3 = 34,
-    scale_4 = 51,
-    scale_5 = 68,
-    scale_6 = 85,
-    scale_7 = 102,
-    scale_8 = 119,
+//    scale_1 = 0,
+//    scale_2 = 17,
+//    scale_3 = 34,
+//    scale_4 = 51,
+//    scale_5 = 68,
+//    scale_6 = 85,
+//    scale_7 = 102,
+//    scale_8 = 119,
+    scale_1 = 0x00,
+    scale_2 = 0x11,
+    scale_3 = 0x22,
+    scale_4 = 0x33,
+    scale_5 = 0x44,
+    scale_6 = 0x55,
+    scale_7 = 0x66,
+    scale_8 = 0x77,
 }kCharScale;
 
 //选择字体
