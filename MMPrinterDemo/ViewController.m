@@ -14,6 +14,10 @@
 
 @property (strong, nonatomic) MMReceiptManager *manager;
 
+@property (weak, nonatomic) IBOutlet UITextField *ipTextField;
+@property (weak, nonatomic) IBOutlet UITextField *portTextField;
+
+
 @end
 
 @implementation ViewController
@@ -25,8 +29,10 @@
 
 - (IBAction)printReceipt:(id)sender {
     
-    NSString *host = @"192.168.1.240";
-    UInt16 port = 9100;
+//    NSString *host = @"192.168.1.240";
+//    UInt16 port = 9100;
+    NSString *host = _ipTextField.text;
+    UInt16 port = (UInt16)_portTextField.text;
     NSTimeInterval timeout = 10;
     MMReceiptManager *manager = [[MMReceiptManager alloc] initWithHost:host port:port timeout:timeout];
     [manager basicSetting];
