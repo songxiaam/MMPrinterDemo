@@ -12,6 +12,8 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) MMReceiptManager *manager;
+
 @end
 
 @implementation ViewController
@@ -19,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)printReceipt:(id)sender {
+    
     NSString *host = @"192.168.1.240";
     UInt16 port = 9100;
     NSTimeInterval timeout = 10;
@@ -35,7 +41,10 @@
     UIImage *qrImage = [MMQRCode qrCodeWithString:@"" logoName:@"kfc.gif" size:200];
     [manager writeData_image:qrImage alignment:MiddleAlignment maxWidth:200];
     [manager printReceipt];
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
