@@ -51,6 +51,7 @@
             m_imageData[result_index++] = 27; 
             m_imageData[result_index++] = 42; 
             m_imageData[result_index++] = 33;
+            
             m_imageData[result_index++] = width%256; 
             m_imageData[result_index++] = width/256;
             for(int x = 0; x < width; x++) {

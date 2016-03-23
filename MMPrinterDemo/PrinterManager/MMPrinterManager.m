@@ -135,7 +135,7 @@
 //54.设置每行打印宽度
 - (void)printAreaWidth:(CGFloat)width {
     unsigned char nL = (int)(width / DotSpace) % 256;
-    unsigned char nH = (int)(width * DotSpace) / 256;
+    unsigned char nH = (int)(width / DotSpace) / 256;
     unsigned char data[] = {0x1D,0x57,nL,nH};
     [self addBytesCommand:data Length:4];
 }

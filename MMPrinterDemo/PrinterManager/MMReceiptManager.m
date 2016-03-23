@@ -38,9 +38,9 @@
     [self.printerManager printInitialize];
     [self.printerManager printSetStanderModel];
     [self.printerManager printDotDistanceW:DotSpace h:DotSpace];
-    [self.printerManager printLeftMargin:5.0];
+//    [self.printerManager printLeftMargin:5.0];
     [self.printerManager printDefaultLineSpace];
-    [self.printerManager printAreaWidth:70];
+//    [self.printerManager printAreaWidth:70];
     [self.printerManager printSelectFont:standardFont];
 }
 //清空缓存数据
