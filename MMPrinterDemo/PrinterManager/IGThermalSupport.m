@@ -17,7 +17,6 @@
 
 + (NSData *) imageToThermalData:(UIImage*)image
 {
-    NSLog(@"zzzzzzzzzzzzz");
 	CGImageRef imageRef = image.CGImage;
     
 	// Create a bitmap context to draw the uiimage into

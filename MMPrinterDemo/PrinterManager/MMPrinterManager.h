@@ -22,22 +22,14 @@ typedef enum :UInt8 {
 
 //页模式下打印区域方向
 typedef enum  {
-    LeftToRight = 48,
-    DownToUP    = 49,
-    RightToLeft = 50,
-    UpToDown    = 51,
+    LeftToRight = 0x30,
+    DownToUP    = 0x31,
+    RightToLeft = 0x32,
+    UpToDown    = 0x33,
 }kPrintOrientation;
 
 //字符放大倍数
-typedef enum :UInt8{
-//    scale_1 = 0,
-//    scale_2 = 17,
-//    scale_3 = 34,
-//    scale_4 = 51,
-//    scale_5 = 68,
-//    scale_6 = 85,
-//    scale_7 = 102,
-//    scale_8 = 119,
+typedef enum: UInt8 {
     scale_1 = 0x00,
     scale_2 = 0x11,
     scale_3 = 0x22,
@@ -49,16 +41,16 @@ typedef enum :UInt8{
 }kCharScale;
 
 //选择字体
-typedef enum {
-    standardFont = 48,
-    smallerFont = 49,
+typedef enum: UInt8 {
+    standardFont = 0x30,
+    smallerFont = 0x31,
 }kCharFont;
 
 //切纸模式
 typedef enum :UInt8 {
-    fullCut = 48,
-    halfCut = 49,
-    feedPaperHalfCut = 66,
+    fullCut = 0x30,
+    halfCut = 0x31,
+    feedPaperHalfCut = 0x42,
 }kCutPaperModel;
 
 //打印数据(文字图片信息)
