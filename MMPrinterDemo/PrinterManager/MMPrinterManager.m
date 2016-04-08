@@ -53,6 +53,7 @@
     NSUInteger size = data.length;
     void *picSize = malloc(size);
     [data getBytes:picSize length:size];
+    [self addBytesCommand:picSize Length:size];
     free(picSize);
 }
 
